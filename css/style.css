@@ -24,53 +24,53 @@ body{
   padding-bottom: 50px;
 }
 .card{
-  border-radius: 20px !important;
-  border: none !important;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.027) !important;
+  border-radius: 20px;
+  border: none ;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.027);
 }
 .card-header{
-  border-top-right-radius: 20px !important;
-  border-top-left-radius: 20px !important;
-  background: none !important;
-  padding-top: 20px !important;
-  padding-bottom: 20px !important;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  background: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: left;
 }
 .card-footer{
-  border-bottom-right-radius: 20px !important;
-  border-bottom-left-radius: 20px !important;
-  background: none !important;
-  padding-top: 20px !important;
-  padding-bottom: 20px !important;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: right;
 }
 .btn{
   height: 40px;
   border-radius: 10px !important;
-  box-shadow: 0 0.5rem 1rem #0d6dfd4f !important;
+  box-shadow: 0 0.5rem 1rem #0d6dfd4f;
 }
 .form-control{
-  border: none !important;
-  border-radius: 10px !important;
-  background-color: #f8f9fa !important;
+  border: none;
+  border-radius: 10px;
+  background-color: #f8f9fa;
 }
 .labelTitile{
   font-size: 18px;
 }
 .form-control-number{
-  box-shadow: none !important;
-  z-index: 0 !important;
+  box-shadow: none;
+  z-index: 0;
 }
 .btn-close{
-  box-shadow: none !important;
+  box-shadow: none;
 }
 .alert{
-  border-radius: 15px !important;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.027) !important;
+  border-radius: 15px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.027);
 }
 .form-control-chackPa{
-  height: 50px !important;
-  box-shadow: none !important;
+  height: 50px;
+  box-shadow: none;
 }
 .width100{
   width: 100%;
@@ -79,12 +79,12 @@ body{
   text-align: right;
 }
 .text-left{
-  text-align: left !important;
+  text-align: left;
 }
 .boxshadowNone{
-  box-shadow: none !important;
+  box-shadow: none;
 }
 .modal-content{
-  border: none !important;
+  border: none;
   border-radius: 20px;
 }
