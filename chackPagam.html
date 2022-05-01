@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bemppago</title>
+  <link rel="icon" href="img/logo-icon.png">
+  <meta name="description" content="O BemPaggo é um plataforma de pagamentos online focada em cobranças online e recorrentes como cobranças de assinaturas mensalidades, semestrais, anuais e também cobranças onlines avulsas com a ajuda de links de pagamento.">
+  <!--css bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!--css-->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!--js bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <!--js-->
+  <script src="js/bootstrap.js"></script>
+  <script src="js/inptuCheck.js"></script>
+</head>
+<body>
+  <section class="section d-flex align-items-center">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <div class="alert alert-light alert-dismissible fade show mb-4" role="alert">
+            Formulário  de <strong> checkout de pagamento</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+          <div class="card mb-4">
+            <div class="card-header mb-3">
+              <img src="img/logo.png" alt="" width="200" lang="Logo bemppago">
+            </div>
+            <div class="card-body pb-4">
+              <div class="d-flex">
+                <div class="width100"><h6>Assinatura básica</h6></div>
+                <div class="width100 text-right"><h6>$19.00</h6></div>
+              </div>
+              <div class="d-flex mt-2">
+                <div class="width100"><h6>Imposto</h6></div>
+                <div class="width100 text-right"><h6>$1.27</h6></div>
+              </div>
+            </div>
+            <div class="card-footer border-top pb-3 d-flex">
+              <div class="width100 text-left"><h5><b>Preço total</b></h5></div>
+              <div class="width100 text-right"><h5><b>$20.27</b></h5></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body pt-4">
+              <form action="#">
+                <div class="mb-3">
+                  <label class="form-label">Numero do Cartão</label>
+                  <input type="number" class="form-control form-control-chackPa">
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Nome do proprietário</label>
+                  <input type="text" class="form-control form-control-chackPa" >
+                </div>
+                <div class="row">
+                  <div class="mb-3 col">
+                    <label class="form-label">Data de Expiração</label>
+                    <input type="date" class="form-control form-control-chackPa">
+                  </div>
+                  <div class="mb-3 col">
+                    <label class="form-label">Código do cartão</label>
+                    <input type="password" class="form-control form-control-chackPa" >
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="card-footer border-top mt-3">
+              <a href="index.html"  class="btn btn-outline-primary boxshadowNone pt-2">Voltar</a>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pagaMentoFeito">Fazer pagamento</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--modal mensagem pagamento feito-->
+    <div class="modal fade" id="pagaMentoFeito" tabindex="-1" aria-labelledby="pagaMentoFeitoLabel" aria-hidden="true">
+      <div class="modal-dialog modal-sm modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header border-0 pt-4">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <h5><b>O pagamento foi realizado <br> com sucesso</b></h5>
+          </div>
+          <div class="modal-footer border-0">
+            <a href="./index.html" class="btn btn-primary">Ok</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!--modal mensagem pagamento feito-->
+</body>
+</html>

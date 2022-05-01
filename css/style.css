@@ -1,0 +1,90 @@
+@font-face {
+  font-family: CircularStdBook;
+  src: url(../font/CircularStdBook.ttf);
+}
+body{
+  font-family: CircularStdBook !important;
+  background-color: #f8f9fa !important;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;background: #cecece;
+}
+::-webkit-scrollbar-thumb:hover {
+  transition: 0.3s;
+  background: #cecece;
+  cursor: pointer;
+}
+.section{
+  min-height: 100vh;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.card{
+  border-radius: 20px !important;
+  border: none !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.027) !important;
+}
+.card-header{
+  border-top-right-radius: 20px !important;
+  border-top-left-radius: 20px !important;
+  background: none !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  text-align: left;
+}
+.card-footer{
+  border-bottom-right-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+  background: none !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  text-align: right;
+}
+.btn{
+  height: 40px;
+  border-radius: 10px !important;
+  box-shadow: 0 0.5rem 1rem #0d6dfd4f !important;
+}
+.form-control{
+  border: none !important;
+  border-radius: 10px !important;
+  background-color: #f8f9fa !important;
+}
+.labelTitile{
+  font-size: 18px;
+}
+.form-control-number{
+  box-shadow: none !important;
+  z-index: 0 !important;
+}
+.btn-close{
+  box-shadow: none !important;
+}
+.alert{
+  border-radius: 15px !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.027) !important;
+}
+.form-control-chackPa{
+  height: 50px !important;
+  box-shadow: none !important;
+}
+.width100{
+  width: 100%;
+}
+.text-right{
+  text-align: right;
+}
+.text-left{
+  text-align: left !important;
+}
+.boxshadowNone{
+  box-shadow: none !important;
+}
+.modal-content{
+  border: none !important;
+  border-radius: 20px;
+}
