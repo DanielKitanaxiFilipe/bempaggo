@@ -15,7 +15,7 @@ cartão, também a plataforma. Solução completa e segura para o seu negócio.
 
 ### Qual a propósito desse projeto?
 
-Este projeto foi desenvolvido para o Desafio de Desenvolvimento FrontEnd da BemPaggo! https://www.bempaggo.com.br/
+Este projeto foi desenvolvido para o Desafio de Desenvolvimento FrontEnd da BemPaggo! https://www.bempaggo.com.br/desafio-frontend/
 
 ### Tecnologias utilizadas no projeto
 
